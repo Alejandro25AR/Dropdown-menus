@@ -1,0 +1,9 @@
+@use '../settings/variables';
+
+body {
+   height: 100vh;
+   margin: 0;
+
+   font-family: variables.$font-family;
+   background-color: variables.$neutral-color;
+}

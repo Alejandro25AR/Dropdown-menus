@@ -1,0 +1,49 @@
+@use '../settings/variables';
+$padding: 2rem;
+
+@media screen and (min-width: 728px) {
+  .o-button {
+    font-size: variables.$fs-text-l;
+  }
+  
+  .c-header {
+    padding: $padding;
+  }
+
+  .c-modal {
+    width: 60vw;
+  }
+
+  .c-menu {
+    & {
+      width: 40vw;
+      padding: $padding;
+    }
+
+    &__item {
+      font-size: variables.$fs-text-l;
+    }
+  }
+
+  .c-hero {
+    &__content {
+      padding: $padding;
+    }
+
+    &__title {
+      font-size: variables.$fs-title-m;
+    }
+
+    &__message {
+      font-size: variables.$fs-text-l;
+    }
+  }
+
+  .c-clients {
+    gap: 1rem;
+
+    &__logo {
+      transform: scale(1);
+    }
+  }
+}

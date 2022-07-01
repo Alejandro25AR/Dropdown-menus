@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Epilogue';
+    src: url(../assets/font/epilogue/Epilogue-Medium.ttf);
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Epilogue';
+    src: url(../assets/font/epilogue/Epilogue-SemiBold.ttf);
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Epilogue';
+    src: url(../assets/font/epilogue/Epilogue-Bold.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+
+$font-family: 'Epilogue';
+
+$fs-text-s: 0.9rem;    
+$fs-text-m: 1rem;    
+$fs-text-l: 1.4rem;
+
+$fs-title-l: 4.5rem;
+$fs-title-m: 3rem;
+$fs-title-s: 2.25rem;
+
+$fs-menu: 1rem;
