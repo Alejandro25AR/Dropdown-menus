@@ -17,7 +17,7 @@ window.addEventListener("load", () => {
   class Menu {
     constructor(nameID) {
       this.id =`#${nameID}`;
-      this.$arrow = document.querySelector(`${this.id} #arrow`);
+      this.$arrow = document.querySelector(`${this.id} .arrow`);
       this.$element = document.getElementById(`submenu-${nameID}`);
       this.currentArrow = 'down';
     }
