@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Snap solution](https://github.com/Alejandro25AR/dropdown-menus)
-- Live Site URL: [Snap web](https://your-live-site-url.com)
+- [Solution URL](https://github.com/Alejandro25AR/dropdown-menus)
+- [Live Site URL](https://alejandro25ar.github.io/Dropdown-menus/)
 
 ## My process
 
