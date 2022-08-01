@@ -1,6 +1,6 @@
 @use '../settings/variables';
 
-@media screen and (min-width:1124px) {
+@media screen and (min-width:960px) {
   .o-button-image {
     display: none;
   }
@@ -27,8 +27,6 @@
   .c-header {
     gap: 4rem;
     margin: 0 auto;
-    padding-left: 0;
-    padding-right: 0;
   }
 
   .c-modal {
@@ -116,27 +114,26 @@
     & {
       flex-direction: row-reverse;
       justify-content: space-between;
-      width: 63rem;
+      width: 54rem;
       margin: 3rem auto 0;
     }
     &__content {
       justify-content: space-between;
       align-items: flex-start;
-      width: 30rem;
-      height: 35rem;
+      width: 27rem;
       padding: 0;
     }
     &__title {
-      padding-top: 1em;
-      font-size: variables.$fs-title-l;
+      padding-top: .5em;
+      font-size: 4rem;
     }
     &__message {
-      width: 80%;
+      width: 90%;
       font-size: variables.$fs-text-m;
       text-align: left;
     }
     &__image {
-      height: 35rem;
+      height: 30rem;
 
       & img {
         height: 100%;
@@ -148,5 +145,32 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .c-header {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .c-hero {
+    & {
+      width: 62rem;
+    }
+    &__content {
+      width: 30rem;
+      height: 35rem;
+    }
+    &__title {
+      padding-top: 1em;
+      font-size: variables.$fs-title-l;
+    }
+    &__message {
+      width: 80%;
+    }
+    &__image {
+      height: 35rem;
+    }
   }
 }
